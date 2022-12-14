@@ -1,5 +1,6 @@
 # Big Data project with hadoop
 ## Determine the speeds in NYC
+[Download the dataset here](https://www.kaggle.com/datasets/aadimator/nyc-realtime-traffic-speed-data "Dataset download") 
 
 Prerequisites for running this project
  - Hadoop 3.3.0
@@ -18,7 +19,7 @@ Upload file to hdfs
 
 Import the hadoop libraries to the project
 Create a jar of the java files and the libraries used in this repo
-[IntelliJ jar tool]([targetURL](https://plugins.jetbrains.com/plugin/11438-handy-export-jar) "IntelliJ export jar tool")
+[IntelliJ jar tool](https://plugins.jetbrains.com/plugin/11438-handy-export-jar "IntelliJ export jar tool")
 
 Run the jar file 
 > hadoop jar <jar location> <packageName.ClassName> <filepath in hdfs> <output folder>
