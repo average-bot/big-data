@@ -21,10 +21,10 @@ Create a jar of the java files and the libraries used in this repo
 [IntelliJ jar tool]([targetURL](https://plugins.jetbrains.com/plugin/11438-handy-export-jar) "IntelliJ export jar tool")
 
 Run the jar file 
-hadoop jar <jar location> <packageName.ClassName> <filepath in hdfs> <output folder>
+> hadoop jar <jar location> <packageName.ClassName> <filepath in hdfs> <output folder>
 
 View the output
-hdfs dfs -cat /<outputfolder>/part-00000
+> hdfs dfs -cat /<outputfolder>/part-00000
 
 To allow the audit logging add the following to your hadoop-env.cmd file located under C:\Hadoop-3.3.0\etc\hadoop
 ``` 
